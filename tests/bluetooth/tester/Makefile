@@ -22,7 +22,7 @@
 BOARD ?= qemu_cortex_m3
 
 KERNEL_TYPE = unified
-CONF_FILE ?= prj.conf
+CONF_FILE ?= qemu.conf
 
 # UART for Bluetooth
 QEMU_EXTRA_FLAGS = -serial unix:/tmp/bt-server-bredr
